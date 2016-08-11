@@ -1,0 +1,17 @@
+<h1>Single post</h1>
+
+<p>
+  {{model.title}}
+</p>
+
+{{#link-to 'posts'}}All posts{{/link-to}}
+
+<h1>All comments</h1>
+
+<button type="button" name="button" {{action "createComment"}}>Random post data</button>
+
+{{#each model.comments as |comment|}}
+  <p>{{comment.message}}</p>
+{{/each}}
+
+{{outlet}}

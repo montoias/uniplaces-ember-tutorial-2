@@ -1,0 +1,13 @@
+<h1>All posts</h1>
+
+{{#link-to 'posts.create'}}
+  <p>Create a new post</p>
+{{/link-to}}
+
+{{#each model as |post|}}
+  {{#link-to 'posts.post' post.id}}
+    <p>{{post.title}}</p>
+  {{/link-to}}
+{{/each}}
+
+{{outlet}}

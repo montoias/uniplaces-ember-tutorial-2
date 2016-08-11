@@ -1,7 +1,12 @@
-# Tut-2
+# Tutorial 2
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+In this tutorial we talk about the model and ember-data.
+
+We focused in the model and more specifically on adapters, serializers and relationships. We used ember-cli-mirage to mock the server behaviour and how we could use it to produce better tests.
+
+In the end I demonstrated how easy it would to use Firebase. In this Repository it's not present how on purpose. If you have the time please follow https://github.com/firebase/emberfire#installation and try it out. :smile:
+
+I recommend this as a supplementary read: https://emberigniter.com/fit-any-backend-into-ember-custom-adapters-serializers/
 
 ## Prerequisites
 
@@ -50,4 +55,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
